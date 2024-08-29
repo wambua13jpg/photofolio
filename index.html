@@ -1,1 +1,52 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker App</title>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Expense Tracker!</h1>
+  </header>
+  <p>Track your finances easily with our user-friendly expense tracker. Stay on top of your spending and achieve your financial goals!</p>
+
+  <h2>Register Now</h2>
+
+  <form action="/register" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+    <br>
+    <button type="submit">Register</button>
+  </form>
+
+  <h2>Your Information</h2>
+  <table border="1">
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+    </tr>
+    <tr>
+      <td>benjah</td>
+      <td>benjah@gmail.com</td>
+      <td>0766666666</td>
+    </tr>
+    <tr>
+        <td>toney</td>
+        <td>toney@gmail.com</td>
+        <td>0745672723</td>
+    </tr>
+  </table>
+
+  <img src="image.jpg" alt="Image of money or finances" width="200" height="100">
+
+  <p>Learn more about personal finance at <a href="https://google.com">Google</a>.</p>
+</body>
+</html>
