@@ -1,0 +1,109 @@
+*{
+    margin: auto;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.ecommerce span{
+    color: blue;
+    font-size: 200%;
+    margin-left: -150px;
+
+}
+ul li a {
+    text-decoration: #04f900;
+    color: #474d47;
+    font-size: 17px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    color: #04f900;
+}
+.active {
+    color: #04f90c;
+}
+:right .btn-1 {
+    background: #8ff392;
+    padding: 8px 12px;
+    border: #474d47;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+:right .btn-2{
+    background: blue;
+    padding: 8px 12px;
+    border: #474d47;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 5%;
+}
+.logo{
+    font-size: medium;
+    font-weight: 700;
+    color: #474d47;
+
+}
+.logo span {
+    color: #04f900;
+
+}
+ul li{
+    display: inline-block;
+    position:relative ;
+    padding: 8px 12px;
+    list-style: none;
+
+}
+.text{
+    color: #04f900;
+    padding: 8px 20px;
+
+}
+.text h1{
+    font-size: large;
+    align-content: flex-end;
+
+}
+.text p{
+    max-width: 100px;
+    margin: 20px 0;
+}
+.btn {
+    background: #04f90c;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    margin-top: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    transition: 0.5s;
+}
+.btn:hover {
+    letter-spacing: 5px;
+}
+
+}
+pre {
+    font-size: large;
+    content: icon;
+    color: red;
+}
+h1 {
+    font-size: 1000px;
+    font-weight: 100;
+    tab-size: 0cqmax;
+    color: blue;
+    text-align: start;
+    margin-left: 0%;
+}
